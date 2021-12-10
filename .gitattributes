@@ -2,4 +2,5 @@
 *.sec* filter=git-crypt diff=git-crypt
 *.key* filter=git-crypt diff=git-crypt
 secrets/** filter=git-crypt diff=git-crypt
+*.asc !filter !diff
 .gitattributes !filter !diff
